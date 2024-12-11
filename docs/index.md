@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+  image:
+    src: /logo.png
+    alt: Mysterious treasure logo
 
 features:
   - title: Feature A

@@ -1,2 +1,7 @@
 # Ignore node_modules directory
 node_modules/
+
+
+# Ignore Vitepress cache and dist directory
+docs/.vitepress/cache/
+docs/.vitepress/dist/
