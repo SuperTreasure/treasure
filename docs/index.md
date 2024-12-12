@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Mysterious treasure"
+  name: "神秘的宝藏"
   text: "Mysterious treasure"
-  tagline: My great project tagline
+  tagline: 分享一些网盘资源
   actions:
     - theme: brand
       text: Markdown Examples
