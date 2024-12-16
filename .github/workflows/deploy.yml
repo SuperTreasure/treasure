@@ -72,7 +72,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   delete:
-    if: always() && (needs.build.result == 'cancelled' || needs.build.result == 'failure')
+    if: always()
     runs-on: ubuntu-latest
     permissions:
       actions: write
