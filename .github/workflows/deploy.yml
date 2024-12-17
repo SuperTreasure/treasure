@@ -60,7 +60,7 @@ jobs:
 
   # 部署工作
   deploy:
-    if: success() && needs.build.result == 'success'
+    if: needs.build.result == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
