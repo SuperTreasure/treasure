@@ -8,6 +8,9 @@ hero:
   tagline: 分享一些网盘资源
   actions:
     - theme: brand
+      text: 在线搜索
+      link: https://www.ezong.xyz
+    - theme: alt
       text: QQ频道
       link: https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=2lkdjYKJ2VN&businessType=9&jumpsource=shorturl#/out
     - theme: alt
