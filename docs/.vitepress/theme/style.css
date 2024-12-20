@@ -132,3 +132,12 @@
 img.VPImage.logo {
   border-radius: 50%;
 }
+
+/* naive-ui */
+.n-timeline-item-content__content {
+  --n-content-text-color: var(--vp-c-text-1);
+}
+
+.n-timeline-item-content__title {
+  --n-title-text-color: var(--vp-c-text-1);
+}

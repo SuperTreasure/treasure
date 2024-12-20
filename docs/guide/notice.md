@@ -1,5 +1,5 @@
-# 公告栏
+<script setup>
+  import { Notice } from '../.vitepress/views';
+</script>
 
-::: warning 警告
-本网站分享的链接和资源仅供用户学习交流与个人使用，请勿用于商业用途或非法传播。任何用户使用资源所造成的后果，均由使用者自行承担，与本网站无关。
-:::
+<Notice />
