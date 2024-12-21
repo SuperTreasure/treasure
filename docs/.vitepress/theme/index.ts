@@ -3,10 +3,11 @@ import { h } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import './style.css';
-import { create, NTimeline, NTimelineItem } from 'naive-ui';
+import { Notification } from '../components';
+import { create, NTimeline, NTimelineItem, NNotificationProvider } from 'naive-ui';
 
 const naive = create({
-  components: [NTimeline, NTimelineItem],
+  components: [NTimeline, NTimelineItem, NNotificationProvider],
 });
 
 export default {
@@ -19,5 +20,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     app.use(naive);
+    app.component('Notification', Notification);
   },
 } satisfies Theme;
