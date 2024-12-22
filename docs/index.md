@@ -6,13 +6,6 @@ hero:
   name: "神秘的宝藏"
   text: "Mysterious treasure"
   tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
   image:
     src: /logo.png
     alt: Mysterious treasure logo
