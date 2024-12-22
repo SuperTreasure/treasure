@@ -14,14 +14,19 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/guide': [
+      '/': [
         {
           text: '指引',
-          items: [{ text: '公告', link: '/guide/notice' }],
+          items: [{ text: '公告', link: '/notice' }],
         },
       ],
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+  },
+
+  cleanUrls: true,
+  rewrites: {
+    'guide/(.*).md': '(.*).md',
   },
 });
