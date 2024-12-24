@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '神秘的宝藏',
   description: 'Mysterious treasure',
+  head: [['link', { rel: 'logo', type: 'image/png', href: '/logo.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
