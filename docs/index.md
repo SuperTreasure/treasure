@@ -40,3 +40,14 @@ features:
     details: 如有任何版权或其他问题，请发送邮件至 super_treasure@qq.com，我们将在收到通知后及时处理。
 ---
 
+
+<n-notification-provider :container-class="data.type">
+  <Notification :type="data.type" :title="data.title" :content="data.content" />
+</n-notification-provider>
+
+<script setup>
+  import notice from './.vitepress/public/notice.json'
+
+  const NoticeList = notice.reverse();
+  const data = NoticeList[0];
+</script>
