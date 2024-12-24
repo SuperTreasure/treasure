@@ -5,4 +5,7 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5233,
   },
+  ssr: {
+    noExternal: ['naive-ui', 'vueuc'],
+  },
 });
